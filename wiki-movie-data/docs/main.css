@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+
+html{
+  background: rgb(31,35,60);
+  background: -moz-linear-gradient(top,  rgba(31,35,60,1) 0%, rgba(67,71,147,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,35,60,1)), color-stop(100%,rgba(67,71,147,1)));
+  min-height: 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 2.5em;
+}
+
+h2{
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 2.5em;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: #FFF;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.7em;
+  margin-bottom: 5%;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: #1affff;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-bottom: 5%;
+  margin-left: 43%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #FFF;
+}
+
+.title-info{
+  font-size: 0.8em;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.movie-origin{
+  padding: 75px;
+}
+
+.movie-decade{
+  padding: 75px;
+}
+
+.movie-genre{
+  padding: 75px;
+}
+
+.context{
+  padding: 50px;
+}
+
+#chart svg {
+  overflow: visible;
+}
+    
+.donut-chart {
+  left: 25%;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  vertical-align: top;
+}
+
+.donut-chart-2 {
+  left: 25%;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  vertical-align: top;
+}
+
+.donut-chart-3 {
+  left: 25%;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  vertical-align: top;
+}
+    
+.pie {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.data-path:hover {
+  cursor: pointer;
+}
+
+.donut-text {
+  transition: transform .2s ease-in-out;
+}
+.donut-text-numbers {
+  font-family: 'cronos-pro', sans-serif;
+  -webkit-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+  opacity: 0;
+  font-size: 1.15em;
+}
+.donut-text-hours {
+  -webkit-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+  opacity: 0;
+  font-size: 2.25em;
+}
+.donut-text-category {
+  font-family: 'cronos-pro', sans-serif;
+  -webkit-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+  opacity: 0;
+  font-size: 1.25em;
+}
+.donut-text--show {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation: fadeGraphTextIn 0.5s forwards;
+          animation: fadeGraphTextIn 0.5s forwards;
+}
+.donut-text:hover {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@-webkit-keyframes fadeGraphTextIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeGraphTextIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
